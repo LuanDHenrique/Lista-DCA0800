@@ -1,0 +1,24 @@
+﻿#include <stdio.h>
+
+int main(void){
+int a;
+
+ printf("Informe um ano: ");
+ scanf("%d", &a);
+    
+ if((a%400)==0){
+ printf("O ano %d é bissexto.\n", a);
+
+ }else{
+
+ if((a%4)==0 && (a%100)!=0){
+ printf("O ano %d é bissexto.\n", a);
+
+ }else{
+ printf("O ano %d não é bissexto.\n", a);
+
+     }
+
+  }
+ return 0;
+}

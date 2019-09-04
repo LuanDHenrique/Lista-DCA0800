@@ -1,0 +1,22 @@
+﻿#include <stdio.h>
+
+int main(void){
+    
+float p, i, l, vr;
+
+  printf("Informe o preço de fábrica do carro: ");    
+  scanf("%f", &p);
+
+  i = p*0.45;
+    
+  l=p*0.12;
+    
+  vr=p+i+l;
+    
+  printf("\nValor do carro = R$ %1.2f reais.\n", vr);    
+  printf("\nImposto = R$ %1.2f reais.\n", i);    
+  printf("\nLucro do vendedor= R$ %1.2f reais.\n", l);
+
+
+  return 0;
+}

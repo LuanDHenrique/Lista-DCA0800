@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <math.h>
+
+
+int main(void) {
+  float a, b, c, x1, x2, delta;
+  
+  printf("Solucionador de eq de grau2\n");
+  printf("Digite o valor de a:\n");
+  scanf("%f", &a);
+  printf("Digite o valor de b:\n");
+  scanf("%f", &b);
+  printf("Digite o valor de c:\n");
+  scanf("%f", &c);
+ 
+  delta = b*b - 4*a*c;
+  if( delta >= 0){
+  x1 = (-b+sqrt(delta))/(2*a);
+  x2 = (-b-sqrt(delta))/(2*a);
+
+   printf("x1 = %0.3f\n", x1);
+   printf("x2 = %.3f\n", x2);
+  }
+  else{
+    printf("Sem reizes reais...");
+  }
+
+return 0;
+}

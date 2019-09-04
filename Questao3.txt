@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+  float gasto, a, b, c;
+  
+  printf("Ha quantos anos voce fuma? ");
+  scanf("%f", &a);
+  printf("\nQual o numero de cigarros fumados por dia? ");
+  scanf("%f", &c);
+  printf("\nQual o preço da carteira de cigarro? ");
+  scanf("%f", &b);
+
+  gasto=(a*365)*c*(b/20);
+  printf("\nGasto=%6.2f", gasto);
+  return 0;
+}

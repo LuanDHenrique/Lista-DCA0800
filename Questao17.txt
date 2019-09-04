@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+  int x, i, soma=0, div;
+
+  for(i=0;i<4;i++){
+  printf("Digite x:\n");
+  scanf("%d", &x);  
+  div=x%2;
+  if(div==0){
+    soma=soma+x;
+  }
+  }
+  printf("\nSoma=%d", soma);
+
+  return 0;
+}

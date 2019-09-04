@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+int x, y;
+int q, r;
+
+printf("Digite x: ");
+scanf("%d", &x); 
+printf("Digite y: ");
+scanf("%d", &y); 
+
+q=x/y;
+r=x%y;
+
+printf("\nQuociente=%d\n", q);
+printf("\nResto=%d", r);
+
+return 0;
+}

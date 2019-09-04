@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+  float l, c, z;
+
+  printf("Qual a quantidade de latao? ");
+  scanf("%f", &l);
+
+  c=l*0.7;
+  z=l*0.3;
+
+  printf("\nQuantidade de cobre= %.2f", c);
+  printf("\nQuantidade de zinco= %.2f", z);
+
+  return 0;
+}

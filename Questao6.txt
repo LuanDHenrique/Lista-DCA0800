@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void) {
+  float a, b;
+  float s, p, q;
+  
+  printf("Digite a:");
+  scanf("%f", &a);
+  printf("Digite b:");
+  scanf("%f", &b);
+
+  s=a+b;
+  p=a*b;
+  q=a/b;
+  printf("\nSoma= %.2f", s);
+  printf("\nProduto= %.2f", p);
+  printf("\nquociente= %.2f", q);
+
+  return 0;
+}

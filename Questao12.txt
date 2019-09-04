@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+int a, b, q;
+
+printf("Digite o primeiro numero: ");
+scanf("%d", &a);
+printf("Digite o segundo numero: ");
+scanf("%d", &b);
+
+if(b==0){
+  printf("DIVISAO POR ZERO");
+}
+else{
+  q=a/b;
+  printf("Quociente= %d", q);
+}
+  return 0;
+}

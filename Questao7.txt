@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(void) {
+  float n1, n2, n3;
+  float s;
+  
+  printf("Digite o primeiro numero:");
+  scanf("%f", &n1);
+  printf("Digite o segundo numero:");
+  scanf("%f", &n2);
+  printf("Digite o terceiro numero:");
+  scanf("%f", &n3);
+  
+  s=n2+n3;
+  if(n1>s){
+    printf("%.2f é maior que %.2f + %.2f", n1, n2, n3);
+  }
+  else{
+    printf("%.2f é menor que %.2f + %.2f", n1, n2, n3);
+  }
+
+  return 0;
+}

@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void) {
+  float u1, u2, u3;
+  float med;
+  
+  printf("Nota u1:\n");
+  scanf("%f", &u1);
+  printf("Nota u2:\n");
+  scanf("%f", &u2);
+  printf("Nota u3:\n");
+  scanf("%f", &u3);
+  
+  med = (u1+u2+u3)/3;
+  printf("Media=(%4.2f+%4.2f+%4.2f)/3=%4.2f \n", u1, u2, u3, med);
+
+  if((med>=5)&&(u1>=3)&&(u2>=3)&&(u3>=3)){
+  printf("PARABENS VC FOI APROVADO!!\n");
+  } 
+  else{
+  printf("REPOSIÇAO");
+  }
+  
+  return 0;
+}
